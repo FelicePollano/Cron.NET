@@ -1,5 +1,0 @@
-C:\Users\FPollano\Documents\Visual Studio 2008\Projects\Cron.NET\Cron.NET\bin\Debug\Cron.NET.dll
-C:\Users\FPollano\Documents\Visual Studio 2008\Projects\Cron.NET\Cron.NET\bin\Debug\Cron.NET.pdb
-C:\Users\FPollano\Documents\Visual Studio 2008\Projects\Cron.NET\Cron.NET\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\FPollano\Documents\Visual Studio 2008\Projects\Cron.NET\Cron.NET\obj\Debug\Cron.NET.dll
-C:\Users\FPollano\Documents\Visual Studio 2008\Projects\Cron.NET\Cron.NET\obj\Debug\Cron.NET.pdb
