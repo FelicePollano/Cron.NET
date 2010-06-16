@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8E303D15-960B-422D-B1B5-AC3B16AA737B}</ProjectGuid>
+    <ProjectGuid>{66DA4D6C-8BA6-48C4-A324-1412F62D4382}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cron.NET</RootNamespace>
-    <AssemblyName>Cron.NET</AssemblyName>
+    <RootNamespace>CronTest</RootNamespace>
+    <AssemblyName>CronTest</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.4.6.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -45,14 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CronExpression.cs" />
-    <Compile Include="ISet.cs" />
-    <Compile Include="ISortedSet.cs" />
+    <Compile Include="Expressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TreeSet.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="doc.html" />
+    <ProjectReference Include="..\Cron.NET\Cron.NET.csproj">
+      <Project>{8E303D15-960B-422D-B1B5-AC3B16AA737B}</Project>
+      <Name>Cron.NET</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

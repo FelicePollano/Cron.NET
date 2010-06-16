@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cron.NET", "Cron.NET\Cron.NET.csproj", "{8E303D15-960B-422D-B1B5-AC3B16AA737B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronTest", "CronTest\CronTest.csproj", "{66DA4D6C-8BA6-48C4-A324-1412F62D4382}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8E303D15-960B-422D-B1B5-AC3B16AA737B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E303D15-960B-422D-B1B5-AC3B16AA737B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E303D15-960B-422D-B1B5-AC3B16AA737B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DA4D6C-8BA6-48C4-A324-1412F62D4382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DA4D6C-8BA6-48C4-A324-1412F62D4382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DA4D6C-8BA6-48C4-A324-1412F62D4382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DA4D6C-8BA6-48C4-A324-1412F62D4382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
